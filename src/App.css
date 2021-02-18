@@ -36,3 +36,149 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+	background: transparent;
+    border: 0px;
+	text-align: center;
+	vertical-align: middle;
+	outline: none;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+}
+
+.title-text {
+    font-family: charlotte,sans-serif;
+    font-size: 50px;
+}
+
+.title-user-name {
+	margin-top: 10px;
+}
+
+.title-user-name-text {
+    font-size: 30px;
+}
+
+.main-albums {
+	margin-top: 60px;	
+	width: 80%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+	border: 1px solid #000;
+	position: relative;
+}
+
+.button-author {
+	background: transparent;
+    border: 0px;
+	text-align: center;
+	vertical-align: middle;
+	outline: none;
+	padding: 15px;
+    font-family: montserrat-light,sans-serif;
+    font-size: 20px;
+    color: #9aaef3;
+}
+
+.button-author:hover {
+	font-family: montserrat,sans-serif;
+    font-size: 23px;
+    transition-duration: 1s;
+}
+
+.button-album {
+	padding: 10px;
+    font-family: montserrat-light,sans-serif;
+    font-size: 10px;
+    color: #9aaef3;
+}
+
+.button-album:hover {
+	font-family: montserrat-light,sans-serif;
+    font-size: 10px;
+}
+
+.button-album-preview {
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    box-shadow: 0px 0px 6px 1px #dedddd;
+}
+
+.button-album-preview:hover {
+    height: 110px;
+    width: 110px;
+    transition-duration: .6s;
+}
+
+.button-album-name {
+	display: table;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.button-album-item {
+	max-width: 120px;
+	display: inline-grid;
+}
+
+.album-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    background: transparent;
+}
+
+.album-photo {
+    width: auto;
+    border-radius: 5%;
+}
+
+.album-photo-close {
+    width: 40px;
+    float: right;
+    margin-top: -28px;
+}
+
+.album-photo-move-left {
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: -30px;
+}
+
+.album-photo-move-right {
+    left: 100%;
+    transform: rotate(180deg);
+    margin-top: -30px;
+    margin-left: -42px;
+}
+
+@font-face {
+  font-family: "montserrat";  
+  src: url("./fonts/Montserrat-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: bold;
+ }
+ 
+ @font-face {
+  font-family: "montserrat-light";  
+  src: url("./fonts/Montserrat-Light.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: 300;
+ }
+ 
+ @font-face {
+  font-family: "charlotte";  
+  src: url("./fonts/charlotte.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: bold;
+ }
